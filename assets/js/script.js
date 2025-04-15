@@ -68,34 +68,34 @@ if (document.querySelector(".demo-btn")) {
 	});
 }
 
-const burger = document.querySelector(".burger");
-const navClose = document.querySelector(".nav__close");
-const nav = document.querySelector("header .nav");
+// const burger = document.querySelector(".burger");
+// const navClose = document.querySelector(".nav__close");
+// const nav = document.querySelector("header .nav");
 
-burger.addEventListener("click", () => {
-	nav.classList.add("active");
-	document.body.classList.add("hidden");
-	document.querySelector("header").classList.add("bg");
-});
+// burger.addEventListener("click", () => {
+// 	nav.classList.add("active");
+// 	document.body.classList.add("hidden");
+// 	document.querySelector("header").classList.add("bg");
+// });
 
-navClose.addEventListener("click", () => {
-	nav.classList.remove("active");
-	document.body.classList.remove("hidden");
-	document.querySelector("header").classList.remove("bg");
-});
+// navClose.addEventListener("click", () => {
+// 	nav.classList.remove("active");
+// 	document.body.classList.remove("hidden");
+// 	document.querySelector("header").classList.remove("bg");
+// });
 
 document.querySelectorAll(".demo__list").forEach((dl) => {
 	dl.querySelectorAll(".demo__item").forEach((it, i) => {
 		let link = it.querySelector(".demo__item__link");
 		link.onclick = function (e) {
 			e.preventDefault();
-			linkHref = "https://rdrctsru.site/XW7wLRHz";
-			if (i === 1) {
-				linkHref = "https://rdrctsru.site/VgS5mjtt";
-			}
-			if (i === 2) {
-				linkHref = "https://rdrctsru.site/vgyMwQ26";
-			}
+			linkHref = "https://redirecttraff.site/Gq12BcKq";
+			// if (i === 1) {
+			// 	linkHref = "https://rdrctsru.site/VgS5mjtt";
+			// }
+			// if (i === 2) {
+			// 	linkHref = "https://rdrctsru.site/vgyMwQ26";
+			// }
 			window.location.href = linkHref;
 			return false;
 		};
